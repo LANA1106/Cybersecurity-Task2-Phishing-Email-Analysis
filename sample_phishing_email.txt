@@ -1,0 +1,36 @@
+Return-Path: <bounce@fake-server.net>
+Delivered-To: user@example.com
+Received: from mail.malicious-site.com (unknown [192.168.1.100])
+        by mx.example.com (Postfix) with ESMTP id ABC123DEF456
+        for <user@example.com>; Fri, 23 Jun 2025 14:32:45 +0000 (UTC)
+From: security-team@amaz0n-verification.com
+To: user@example.com
+Subject: URGENT: Verify Your Account to Avoid Suspension
+Date: Fri, 23 Jun 2025 14:32:45 +0000
+Message-ID: <suspicious123@fake-server.net>
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+X-Mailer: Malicious Mailer v2.0
+
+Dear Valued Customer,
+
+We have detected unusual activity on your Amazon account. Your account will be SUSPENDED within 24 hours if you do not verify your information immediately.
+
+Click here to verify your account: http://amaz0n-secure-login.malicious-site.com/verify
+
+If you do not complete verification within 24 hours, your account will be permanently closed and all orders cancelled.
+
+Thank you for your immediate attention,
+Amazon Security Team
+
+This is an automated message. Please do not reply to this email.
+
+---
+ANALYSIS NOTES:
+- Sender domain uses '0' instead of 'o' in "amaz0n"
+- Return-Path doesn't match From address
+- Suspicious Message-ID domain
+- HTTP link instead of HTTPS
+- Creates false urgency with 24-hour deadline
+- Generic greeting instead of personalized
+- No legitimate contact information provided
